@@ -1,0 +1,47 @@
+
+$skeleton-bg: #bbb;
+
+.skeleton-screen {
+   background-color: $skeleton-bg;
+   display: inline-block;
+   vertical-align: middle;
+   width: 70%;
+   height: 12px;
+   border-radius: 14px;
+   margin: 5px;
+   animation-duration: 1s;
+   animation-fill-mode: forwards;
+   animation-iteration-count: infinite;
+   animation-name: placeHolderShimmer;
+   animation-timing-function: linear;
+   background: linear-gradient(to right, lighten($skeleton-bg, 20%) 8%, lighten($skeleton-bg, 15%) 18%, lighten($skeleton-bg, 20%) 33%);
+   background-size: 800px 104px;
+   position: relative;
+}
+
+.skeleton-icon {
+   background-color: $skeleton-bg;
+   display: inline-block;
+   vertical-align: middle;
+   height: 24px;
+   width: 24px;
+   border-radius: 20px;
+   animation-duration: 1s;
+   animation-fill-mode: forwards;
+   animation-iteration-count: infinite;
+   animation-name: placeHolderShimmer;
+   animation-timing-function: linear;
+   background: linear-gradient(to right, lighten($skeleton-bg, 20%) 8%, lighten($skeleton-bg, 15%) 18%, lighten($skeleton-bg, 20%) 33%);
+   background-size: 800px 104px;
+   position: relative;
+}
+
+@keyframes placeHolderShimmer {
+   0% {
+      background-position: -468px 0
+   }
+
+   100% {
+      background-position: 468px 0
+   }
+}
