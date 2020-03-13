@@ -1,0 +1,33 @@
+$default-svg-image-path: "./../assets/svg";
+@mixin svg-image($image-name, $width: 100%, $height: 100%, $extension: "svg", $path: $default-svg-image-path) {
+  position: relative;
+  &::before {
+    content: url(#{$path}/#{$image-name}.#{$extension});
+    width: $width;
+    height: $height;
+    display: block;
+  }
+}
+
+@mixin svg-image-full-path($base-path, $image-name, $width: 100%, $height: 100%, $extension: "svg", $path: $base-path) {
+  position: relative;
+  &::before {
+    content: url(#{$path}/#{$image-name}.#{$extension});
+    width: $width;
+    height: $height;
+    display: block;
+  }
+}
+.customer-profile {
+  padding: 10px;
+  width: 300px;
+}
+.icon {
+  @include svg-image-full-path($default-svg-image-path, "user", 30px, 30px);
+  position: relative;
+  width: 30px;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  padding-top: 5px;
+  padding-left: 4px;
+}
