@@ -1,6 +1,7 @@
 {
   "name": "skeleton-loading-angular",
   "version": "0.0.0",
+  "homepage":"https://anujsharma-bbd.github.io/skeleton-loading-demo",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
