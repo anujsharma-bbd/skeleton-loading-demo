@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="19px" height="20px" viewBox="0 0 19 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>New recipient</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="375-Forgot-my-password-1" transform="translate(-28.000000, -119.000000)" stroke="#4A4A4A">
+            <g id="New-recipient" transform="translate(29.000000, 120.000000)">
+                <path d="M8,11 C5.48977778,11 3.26311111,11.55825 1.8,12.043875 C0.72,12.4035 0,13.405375 0,14.528 L0,18 L7.11111111,18" id="Shape"></path>
+                <path d="M14.3952001,11 C11.7609729,11 9.42430884,11.55825 7.88892002,12.043875 C6.75556801,12.4035 6,13.405375 6,14.528 L6,18 L17,18" id="Shape-Copy" transform="translate(11.500000, 14.500000) scale(-1, 1) translate(-11.500000, -14.500000) "></path>
+                <path d="M8.5,11 C6.0151,11 4,8.03091667 4,5.5 L4,4.58333333 C4,2.05241667 6.0151,0 8.5,0 C10.9849,0 13,2.05241667 13,4.58333333 L13,5.5 C13,8.03091667 10.9849,11 8.5,11 Z" id="Shape" stroke-linecap="square"></path>
+            </g>
+        </g>
+    </g>
+</svg>
